@@ -1,4 +1,4 @@
-# require_relative 'board'
+require_relative 'board'
 
 class Ship
 
@@ -22,7 +22,7 @@ class Ship
     end
     @sunk = true
     return @sunk
-  end 
+  end
 end
 
 # ship1 = Ship.new(3)
